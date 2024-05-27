@@ -35,7 +35,10 @@ pip install ytmusicapi
    Ensure your CSV file (`your_file.csv`) looks like this:
 
 ```
-Title,Album,Artist "Peaches en Regalia","Encores","Les Cris de Paris, Geoffroy Jourdain" "Edge of Seventeen","Crystal Visions...The Very Best of Stevie Nicks","Stevie Nicks"
+Title,Album,Artist
+"Peaches en Regalia","Encores","Les Cris de Paris, Geoffroy Jourdain"
+"Edge of Seventeen","Crystal Visions...The Very Best of Stevie Nicks","Stevie Nicks"
+"Beds Are Burning (Remastered)","Diesel And Dust","Midnight Oil"
 ```
 
 
