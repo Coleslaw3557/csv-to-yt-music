@@ -2,6 +2,10 @@
 
 This script imports tracks from a CSV file into a YouTube Music playlist and adds them to your "Liked Music". It uses the `ytmusicapi` library to interact with YouTube Music.
 
+I needed a way to copy my Deezer playlist to YT Music.
+Note: this is all LLM generated code so use at your own risk. It worked for me so I thouht I'd share.
+You can get your Deezer playlist using Zeex's code: https://github.com/Zeex/deezer-export/tree/master
+
 ## Features
 
 - Create a new YouTube Music playlist from a CSV file.
@@ -44,7 +48,7 @@ Title,Album,Artist
 
 2. **Run the script**:
 ```
-python your_script.py your_file.csv "My Playlist Name" added_songs.json --retries 3 --timeout 10
+python main.py your_file.csv "My Playlist Name" added_songs.json --retries 3 --timeout 10
 ```
 
 
