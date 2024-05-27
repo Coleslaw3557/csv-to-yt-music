@@ -61,9 +61,10 @@ python main.py your_file.csv "My Playlist Name" added_songs.json --retries 3 --t
 ## Example
 
 ```
-python your_script.py your_file.csv "My Favorite Songs" added_songs.json --retries 5 --timeout 15
+python main.py your_file.csv "My Favorite Songs" added_songs.json --retries 5 --timeout 15
 ```
 
+The "added_songs.json" is just a temporary file to keep tabs on which files have already been added incase you have to re-run the script.
 
 ## Logging
 
