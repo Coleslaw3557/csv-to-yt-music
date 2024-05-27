@@ -27,7 +27,7 @@ pip install ytmusicapi
 ```
 
 4. **Generate `headers_auth.json`**:
-   - Follow the instructions in the [ytmusicapi documentation]([https://ytmusicapi.readthedocs.io/en/latest/setup.html#authenticated-requests](https://ytmusicapi.readthedocs.io/en/stable/)) to generate the `headers_auth.json` file.
+   - Follow the instructions in the [ytmusicapi documentation](https://ytmusicapi.readthedocs.io/en/stable/) to generate the `headers_auth.json` file.
 
 ## Usage
 
