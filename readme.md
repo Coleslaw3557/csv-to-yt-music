@@ -49,6 +49,12 @@ Title,Album,Artist
 2. **Run the script**:
 ```
 python main.py your_file.csv "My Playlist Name" added_songs.json --retries 3 --timeout 10
+
+2024-05-27 11:38:12,919 - INFO - First row keys: dict_keys(['Title', 'Album', 'Artist'])
+2024-05-27 11:38:13,344 - INFO - Playlist created with ID: PL0_CaZKV_Wp9l-FE7eZFOFuspLzi-EtO_
+2024-05-27 11:38:14,656 - INFO - Song ID pCp-blUrtOo already added, skipping
+2024-05-27 11:38:15,158 - INFO - Song ID 3oZunnY-Cbs already added, skipping
+...
 ```
 
 
